@@ -7,9 +7,8 @@ import useCachedResources from './src/hooks/useCachedResources';
 import useColorScheme from './src/hooks/useColorScheme';
 import Navigation from './src/navigation';
 
-import Amplify from 'aws-amplify'
-// @ts-ignore
-import config from './aws-exports'
+import Amplify from 'aws-amplify';
+import config from './aws-exports';
 Amplify.configure(config)
 
 export default function App() {
