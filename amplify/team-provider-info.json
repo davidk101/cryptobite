@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cryptobite-dev-175620-authRole",
+      "UnauthRoleArn": "arn:aws:iam::062492552146:role/amplify-cryptobite-dev-175620-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::062492552146:role/amplify-cryptobite-dev-175620-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-cryptobite-dev-175620-deployment",
+      "UnauthRoleName": "amplify-cryptobite-dev-175620-unauthRole",
+      "StackName": "amplify-cryptobite-dev-175620",
+      "StackId": "arn:aws:cloudformation:us-east-1:062492552146:stack/amplify-cryptobite-dev-175620/8cdb9d70-df76-11eb-99ad-0aff04b5e65f",
+      "AmplifyAppId": "d33aighttxj11"
+    }
+  }
+}
