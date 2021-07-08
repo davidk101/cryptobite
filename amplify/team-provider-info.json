@@ -10,6 +10,14 @@
       "StackName": "amplify-cryptobite-dev-175620",
       "StackId": "arn:aws:cloudformation:us-east-1:062492552146:stack/amplify-cryptobite-dev-175620/8cdb9d70-df76-11eb-99ad-0aff04b5e65f",
       "AmplifyAppId": "d33aighttxj11"
+    },
+    "categories": {
+      "auth": {
+        "cryptobite7d58936f": {}
+      },
+      "function": {
+        "cryptobite7d58936fPostConfirmation": {}
+      }
     }
   }
 }
