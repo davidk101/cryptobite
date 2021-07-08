@@ -16,7 +16,10 @@
         "cryptobite7d58936f": {}
       },
       "function": {
-        "cryptobite7d58936fPostConfirmation": {}
+        "cryptobite7d58936fPostConfirmation": {
+          "deploymentBucketName": "amplify-cryptobite-dev-175620-deployment",
+          "s3Key": "amplify-builds/cryptobite7d58936fPostConfirmation-51353656746c6c6f6d4d-build.zip"
+        }
       }
     }
   }
