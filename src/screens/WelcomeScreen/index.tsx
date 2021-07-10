@@ -53,13 +53,25 @@ const WelcomeScreen = () => {
         fetchUser();
     }, [])
 
+    useEffect(() => {
+        Hub.listen("auth", ({ payload: { event, data } }) => {
+            if (event === "signIn") {
+                navigation.dispatch(
+                    CommonActions.reset({
+                        index: 0,
+                        routes: [
+                            { name: 'Root' },
+                        ],
+                    })
+                );
+            }
+        });
+    }, [])
+
     const signInGoogle = async () => {
         await Auth.federatedSignIn({ provider: CognitoHostedUIIdentityProvider.Google});
     }
 
-    const signInApple = async () => {
-        await Auth.federatedSignIn({ provider: CognitoHostedUIIdentityProvider.Apple });
-    }
 
     return (
         <View style={styles.root}>
