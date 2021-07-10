@@ -8,7 +8,8 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
     },
     image: {
-        height: 175,
+        height: '40%',
+        width: '100%',
         resizeMode: "contain",
     },
     balanceContainer: {

@@ -18,7 +18,8 @@ const styles = StyleSheet.create({
         color: '#5f5f5f'
     },
     image: {
-        height: 200,
+        height: 300,
+        width: 300,
         resizeMode: 'contain',
     },
 

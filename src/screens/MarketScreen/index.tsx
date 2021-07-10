@@ -2,7 +2,7 @@ import React from 'react';
 import {View, Text, Image, FlatList} from 'react-native';
 import styles from './styles';
 import MarketCoin from "../../components/MarketCoin";
-const image =  require('../../../assets/images/market.jpg');
+const image =  require('../../../assets/images/market.png');
 
 const portfolioCoins = [{
     id: '1',

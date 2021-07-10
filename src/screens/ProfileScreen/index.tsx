@@ -3,7 +3,7 @@ import {View, Text, Image, Pressable} from 'react-native';
 import styles from './styles';
 import {Auth} from "aws-amplify";
 import {CommonActions, useNavigation} from "@react-navigation/native";
-const image =  require('../../../assets/images/profile.jpg');
+const image =  require('../../../assets/images/profile.png');
 
 const ProfileScreen = () => {
     const [user, setUser] = useState({

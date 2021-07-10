@@ -10,7 +10,7 @@ import {
     Platform
 } from 'react-native';
 import { useRoute } from '@react-navigation/native';
-const image =  require('../../../assets/images/money_transfer.png');
+const image =  require('../../../assets/images/money-transfer.png');
 import styles from './styles';
 
 

@@ -8,7 +8,8 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
     },
     image: {
-        height: 175,
+        height: 350,
+        width: 350,
         resizeMode: "contain",
     },
     label: {
