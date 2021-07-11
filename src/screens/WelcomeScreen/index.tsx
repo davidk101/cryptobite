@@ -69,7 +69,9 @@ const WelcomeScreen = () => {
     }, [])
 
     const signInGoogle = async () => {
-        await Auth.federatedSignIn({ provider: CognitoHostedUIIdentityProvider.Google});
+        await Auth.federatedSignIn({
+            provider: CognitoHostedUIIdentityProvider.Google
+        });
     }
 
 
