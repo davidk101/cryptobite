@@ -11,6 +11,7 @@ import AppContext from './src/utils/AppContext'
 import Amplify, {Auth} from 'aws-amplify';
 import config from './aws-exports';
 Amplify.configure(config)
+Auth.configure(config)
 
 /*Amplify.configure({
   Auth: {

@@ -19,6 +19,10 @@
         "cryptobite7d58936fPostConfirmation": {
           "deploymentBucketName": "amplify-cryptobite-dev-175620-deployment",
           "s3Key": "amplify-builds/cryptobite7d58936fPostConfirmation-51353656746c6c6f6d4d-build.zip"
+        },
+        "ExchangeCoins": {
+          "deploymentBucketName": "amplify-cryptobite-dev-175620-deployment",
+          "s3Key": "amplify-builds/ExchangeCoins-2b613130583136552f6c-build.zip"
         }
       }
     }

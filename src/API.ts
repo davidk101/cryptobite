@@ -165,6 +165,18 @@ export type ModelCoinConnection = {
   nextToken?: string | null,
 };
 
+export type ExchangeCoinsMutationVariables = {
+  coinId: string,
+  isBuy: boolean,
+  amount: number,
+  usdPortfolioCoinId?: string | null,
+  coinPortfolioCoinId?: string | null,
+};
+
+export type ExchangeCoinsMutation = {
+  exchangeCoins: boolean,
+};
+
 export type GetUserQueryVariables = {
   id: string,
 };
