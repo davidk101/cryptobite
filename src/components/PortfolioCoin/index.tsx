@@ -2,28 +2,31 @@ import React, {useEffect} from 'react';
 import {View, Text, Image, Pressable} from 'react-native';
 import styles from './styles'
 import {useNavigation} from "@react-navigation/native";
-import PercentageChange from "../PercentageChange";
 
 export interface PortfolioCoinProps {
     portfolioCoin: {
-        id: string,
-        image: string,
-        name: string,
-        symbol: string,
         amount: number,
-        valueUSD: number,
+        coin: {
+            id: string,
+            image: string,
+            name: string,
+            symbol: string,
+            currentPrice: number,
+        }
     }
 }
 
 const PortfolioCoin = (props: PortfolioCoinProps) => {
     const {
         portfolioCoin: {
-            id,
-            image,
-            name,
-            symbol,
             amount,
-            valueUSD,
+            coin: {
+                id,
+                image,
+                name,
+                symbol,
+                currentPrice,
+            }
         },
     } = props;
 
@@ -40,7 +43,7 @@ const PortfolioCoin = (props: PortfolioCoinProps) => {
                     </View>
                 </View>
                 <View style={{alignItems: 'flex-end'}}>
-                    <Text style={styles.value}>${valueUSD}</Text>
+                    <Text style={styles.value}>${amount * currentPrice}</Text>
                     <Text style={styles.symbol}>{symbol} {amount}</Text>
                 </View>
             </View>

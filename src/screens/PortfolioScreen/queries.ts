@@ -7,10 +7,12 @@ export const getUserPortfolio = /* GraphQL */ `
         items {
           id
           amount
-          coin{
+          coin {
             id
             name
             symbol
+            image
+            currentPrice
           }
         }
         nextToken
